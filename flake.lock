@@ -1,32 +1,16 @@
 {
   "nodes": {
-    "flake-utils": {
-      "locked": {
-        "lastModified": 1623875721,
-        "narHash": "sha256-A8BU7bjS5GirpAUv4QA+QnJ4CceLHkcXdRp4xITDB0s=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "f7e004a55b120c02ecb6219596820fcd32ca8772",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
     "flejk": {
       "inputs": {
         "nixpkgs": "nixpkgs",
-        "terranix": "terranix",
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1633464661,
-        "narHash": "sha256-PNWDUTaOMhVj/oxB6ZN9lo7ch4ZDbdrKvd9NozRWrw4=",
+        "lastModified": 1633478923,
+        "narHash": "sha256-lTBTpKVbAYDykpVFQiyz5Kmhp1XDooilHOAjfWtpyBs=",
         "owner": "esselius",
         "repo": "flejk",
-        "rev": "9e52baf459b0504a70828ff2db23160734021c0a",
+        "rev": "43fb958f047d323824e80c6bec213bd10ce728c1",
         "type": "github"
       },
       "original": {
@@ -55,61 +39,25 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1624897169,
-        "narHash": "sha256-p+sLETnihqomBRknjGWVyOIZg/iALkQFR8XQMubu54o=",
-        "owner": "nixos",
+        "lastModified": 1633015580,
+        "narHash": "sha256-2Kgx9koS4fet2N/oE/zrGxLd0GC1yHAo3ClvdvF6hj8=",
+        "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "64e8390c43f3b5228766058b496241eddb8950d6",
+        "rev": "d5646735f0a360b7e6e1531b58b30243bba21530",
         "type": "github"
       },
       "original": {
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "type": "github"
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {
       "inputs": {
         "flejk": "flejk",
-        "utils": "utils_2"
-      }
-    },
-    "terranix": {
-      "inputs": {
-        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs_2"
-      },
-      "locked": {
-        "lastModified": 1632116038,
-        "narHash": "sha256-Skla2m90VczHsXLkbY8cuXujiLskrTX8CdVlHAkuhxM=",
-        "owner": "mrVanDalo",
-        "repo": "terranix",
-        "rev": "b9c21a5dd4c2d1738c3eb1516676d34d6039fa66",
-        "type": "github"
-      },
-      "original": {
-        "owner": "mrVanDalo",
-        "ref": "feature/flakes",
-        "repo": "terranix",
-        "type": "github"
       }
     },
     "utils": {
-      "locked": {
-        "lastModified": 1631561581,
-        "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "rev": "7e5bf3925f6fbdfaf50a2a7ca0be2879c4261d19",
-        "type": "github"
-      },
-      "original": {
-        "owner": "numtide",
-        "repo": "flake-utils",
-        "type": "github"
-      }
-    },
-    "utils_2": {
       "locked": {
         "lastModified": 1631561581,
         "narHash": "sha256-3VQMV5zvxaVLvqqUrNz3iJelLw30mIVSfZmAaauM3dA=",
