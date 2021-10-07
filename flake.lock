@@ -6,11 +6,11 @@
         "utils": "utils"
       },
       "locked": {
-        "lastModified": 1633478923,
-        "narHash": "sha256-lTBTpKVbAYDykpVFQiyz5Kmhp1XDooilHOAjfWtpyBs=",
+        "lastModified": 1633595811,
+        "narHash": "sha256-1eBphI0bo3ElZmo+I+KV2TpqOb4nPDOTIyQba+5Win8=",
         "owner": "esselius",
         "repo": "flejk",
-        "rev": "43fb958f047d323824e80c6bec213bd10ce728c1",
+        "rev": "0014f87f64da5398b87a0850875505277aec0f41",
         "type": "github"
       },
       "original": {
